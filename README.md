@@ -1,4 +1,4 @@
-# Triplann
+# Triplann - trips planner web application, thats allows you plan your trips fast and never forget something!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
