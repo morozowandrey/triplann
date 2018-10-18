@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/fonts/stylesheet.css';
+@import '../node_modules/normalize.css/normalize.css';
+
+
+/* BASE STYLES */
+
+body {
+    font-family: 'Raleway';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* HELPERS */
+
+.wrapper {
+    max-width: 1366px;
+}
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
