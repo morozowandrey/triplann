@@ -26,3 +26,14 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+
+
+/* MAIN STYLES */
+
+.route-container {
+    position:relative;
+}
+.route-container>* {
+    display:block;
+}

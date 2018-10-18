@@ -8,11 +8,13 @@ const routes: Routes = [
     { path: '', redirectTo: 'hello', pathMatch: 'full' },
     { 
         path: 'hello',
-        component: HomePageComponent
+        component: HomePageComponent,
+        data: {depth: 1}
     },
     { 
         path: 'generator',
-        component: GeneratorComponent
+        component: GeneratorComponent,
+        data: {depth: 2}
     },
 ];
 
