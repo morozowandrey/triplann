@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-generator',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GeneratorComponent implements OnInit {
 
-  constructor() { }
+  navValues = {
+    home: 'home'
+  }
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
+
+  // @HostListener('window:scroll', ['$event'])
+  
+  // onScrollEvent($event){
+  //   console.log(event);
+  //   this.router.navigateByUrl('/planner/hello');
+  //   // let scrollDepth = window.pageYOffset || document.documentElement.scrollTop;
+  //   // if(scrollDepth > 0){
+  //   // }
+  // }
 
 }
